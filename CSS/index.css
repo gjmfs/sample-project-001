@@ -1,0 +1,132 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+#wc{
+    padding: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    font-size: 35px;
+    
+}
+#heading{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+#profile-pic{
+    float: right;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0%;
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+
+}
+h1{
+    margin: 0%;
+    margin-top: 10px;
+    padding: 0%;
+}
+#navimg{
+    width: 50px;
+    height: 50px;
+    
+}
+
+nav{
+    background-color: rgb(63, 65, 64);
+    padding: 10px;
+    margin: 0%;
+}
+#hide{
+    width:100%;
+    display:flex;
+    
+}
+nav i{
+    margin: 0%;
+    width: 100%;
+    padding-right: 2rem;
+}
+nav i a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+}
+nav i a:hover{
+    color: greenyellow;
+    font-size: 27px;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+.getstart{
+    display: flex;
+}
+.main{
+    width:250px;
+    height: 250px;  
+    margin-top: 3rem; 
+    
+}
+.right{
+    text-align: center;
+}
+form{
+
+}
+input,textarea{
+    display: flex;
+    
+    
+}
+form{
+    
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    border: 0;
+    background-color: rgb(26, 23, 21);
+    border-radius: 5px;
+    width: 15rem;
+    color: aliceblue;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+textarea{
+    color: aliceblue;
+    background-color: rgb(20, 18, 14);
+    border: 0;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+BUTTON{
+    color: aliceblue;
+    background-color: rgb(85, 10, 10);
+    border: 0;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.reset{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
